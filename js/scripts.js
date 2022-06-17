@@ -34,6 +34,6 @@ $(document).ready(function () {
     let price = newPizza.getPrice(inputtedSize);
     $("#topping-type").text("Toppings: " + newPizza.pizzaTopping);
     $("#size-type").text("Size: " + newPizza.pizzaSize);
-    $("#pizza-price").text("$" + price + ".00");
+    $("#pizza-price").text("Price: $" + price + ".00");
   });
 })
