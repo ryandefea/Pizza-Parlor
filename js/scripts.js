@@ -1,16 +1,17 @@
+//Business Interface Logic ----
 function Pizza (pizzaTopping, pizzaSize) {
   this.pizzaTopping = pizzaTopping;
   this.pizzaSize = pizzaSize;
 }
 
 Pizza.prototype.getPrice = function () {
-  let pizzaPrice = 0;
+  let pizzaPrice = 50;
   if (this.pizzaSize === "small") {
-    pizzaPrice = 10;
+    pizzaPrice += 10;
   } else if (this.pizzaSize === "medium") {
-    pizzaPrice = 15;
+    pizzaPrice += 15;  
   } else {
-    pizzaPrice = 20;
+    pizzaPrice += 20;
   }
   if (this.pizzaTopping === "Pepperoni") {
     pizzaPrice += 5;
@@ -21,11 +22,6 @@ Pizza.prototype.getPrice = function () {
   }
   return pizzaPrice;
 }
-
-
-
-
-
 //User Interface Logic ----
 
 $(document).ready(function () {
