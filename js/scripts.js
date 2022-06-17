@@ -12,8 +12,16 @@ Pizza.prototype.getPrice = function () {
   } else {
     pizzaPrice = 20;
   }
+  if (this.pizzaTopping === "Pepperoni") {
+    pizzaPrice += 5;
+  } else if (this.pizzaTopping === "Bacon") {
+    pizzaPrice += 6;
+  } else {
+    pizzaPrice += 20;
+  }
   return pizzaPrice;
 }
+
 
 
 
