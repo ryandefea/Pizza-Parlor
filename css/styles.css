@@ -1,0 +1,19 @@
+body {
+  font-family: 'Fascinate Inline', cursive;
+  background-color: olive;
+}
+
+.btn {
+  margin: 5px;
+  btn-color: olive;
+}
+
+.jumbotron {
+  background-color: red;
+  font-color: white;
+}
+
+h2 {
+  
+}
+

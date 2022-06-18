@@ -3,13 +3,16 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Pizza Parlor</title>
 </head>
 <body>
-<div class="container">
-  <h1>Papa Ryan's Poppin Pizza Pies</h1>
+  <div class="jumbotron">
+    <h1>Papa Ryan's Poppin' Pizza Pies</h1>
+  </div>
+  <div class="container">
   <form id="pizza-info">
     <h2>Toppings</h2>
     <select class="form-control" id="toppings">
@@ -23,12 +26,12 @@
       <option value="medium">Medium</option>
       <option value="large">Large</option>
     </select>
-    <button type="submit" class="btn btn-primary">Place Order</button>
+    <button type="submit" class="btn btn-light">Place Order</button>
   </form>
-  <p>Your Poppin Pizza Pie:</p>
-  <p><span id="topping-type"></span></p>
-  <p><span id="size-type"></span></p>
-  <p><span id="pizza-price"></span></p>
+  <h3>Your Poppin Pizza Pie:</h3>
+  <h3><span id="topping-type"></span></h3>
+  <h3><span id="size-type"></span></h3>
+  <h3><span id="pizza-price"></span></h3>
 </div>
 </body>
 </html>

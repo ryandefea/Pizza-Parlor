@@ -5,7 +5,7 @@ function Pizza (pizzaTopping, pizzaSize) {
 }
 
 Pizza.prototype.getPrice = function () {
-  let pizzaPrice = 50;
+  let pizzaPrice = 10;
   if (this.pizzaSize === "small") {
     pizzaPrice += 10;
   } else if (this.pizzaSize === "medium") {
@@ -30,7 +30,6 @@ $(document).ready(function () {
     let inputtedTopping = $("#toppings").val();
     let inputtedSize = $("#size").val();
     let newPizza = new Pizza(inputtedTopping, inputtedSize);
-    console.log(newPizza);
     let price = newPizza.getPrice(inputtedSize);
     $("#topping-type").text("Toppings: " + newPizza.pizzaTopping);
     $("#size-type").text("Size: " + newPizza.pizzaSize);
