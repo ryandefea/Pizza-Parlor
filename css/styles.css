@@ -1,8 +1,16 @@
+.container {
+  text-align: center;
+}
 body {
   font-family: 'Fascinate Inline', cursive;
-  background-color: olive;
+  background-color: green;
+  
 }
 
+#toppings {
+  align-content: center;
+  
+}
 .btn {
   margin: 5px;
   btn-color: olive;
@@ -10,10 +18,23 @@ body {
 
 .jumbotron {
   background-color: red;
-  font-color: white;
+  color: white;
+  text-align: center;
 }
 
 h2 {
-  
+  color: white;
 }
+
+h3 {
+  color: white;
+}
+
+.form-control {
+  margin: 10px;
+  width: 200px;
+  transform: translate(220%, 0)
+}
+
+
 
