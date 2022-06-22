@@ -23,7 +23,6 @@ Pizza.prototype.getPrice = function () {
   return pizzaPrice;
 }
 //User Interface Logic ----
-
 $(document).ready(function () {
   $("form#pizza-info").submit(function(event){
     event.preventDefault();

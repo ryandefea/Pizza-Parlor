@@ -1,18 +1,13 @@
-.container {
-  text-align: center;
-}
 body {
   font-family: 'Fascinate Inline', cursive;
   background-color: green;
+  text-align: center;
   
 }
-
-#toppings {
-  align-content: center;
   
-}
 .btn {
-  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   btn-color: olive;
 }
 
@@ -33,7 +28,11 @@ h3 {
 .form-control {
   margin: 10px;
   width: 200px;
-  transform: translate(220%, 0)
+}
+
+.dropdown {
+  display: inline-block;
+  margin: 30px;
 }
 
 
