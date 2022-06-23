@@ -35,5 +35,15 @@ h3 {
   margin: 30px;
 }
 
+.carousel-item {
+  height: 32rem;
+  background: gray;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+
+}
+
 
 
