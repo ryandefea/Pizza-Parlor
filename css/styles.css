@@ -35,15 +35,17 @@ h3 {
   margin: 30px;
 }
 
-.carousel-item {
-  height: 32rem;
-  background: gray;
-  color: white;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-
+#bottomJumbo {
+  background-color: white;
+  content-align: center;
 }
+
+.carousel-inner > .carousel-item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+
+
 
 
 
