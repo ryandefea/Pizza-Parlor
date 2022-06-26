@@ -36,7 +36,7 @@ h3 {
 }
 
 #bottomJumbo {
-  background-color: white;
+  background-color: gray;
   content-align: center;
 }
 
@@ -44,6 +44,9 @@ h3 {
   .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
+}
+
+
 
 
 
