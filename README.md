@@ -35,7 +35,7 @@ This website allows visitors to make two selections that returns them a price ba
 
 ## Known Bugs
 
- - At this time the centering for the dropdowns is a little buggy. 
+ - The captions for the carousel will disappear when shrinking down the browser size to mobile.  
 
 ## License
 

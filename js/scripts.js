@@ -34,7 +34,7 @@ $(document).ready(function () {
     $("#size-type").text("Size: " + newPizza.pizzaSize);
     $("#pizza-price").text("Price: $" + price + ".00");
   });
-  $(".carousel").carousel('pause');
+  $(".carousel").carousel();
     $(".carousel-control-prev").click(function(){
       $("#carouselExampleControls").carousel("prev");
     });
